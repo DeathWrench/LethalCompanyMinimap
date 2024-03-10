@@ -79,7 +79,7 @@ namespace LethalCompanyMinimap
             harmony.PatchAll(typeof(EnemyAIPatch));
             harmony.PatchAll(typeof(PlayerControllerBPatch));
             harmony.PatchAll(typeof(RadarBoosterItemPatch));
-            harmony.PatchAll(typeof(HUDManagerPatch));
+            //harmony.PatchAll(typeof(HUDManagerPatch));
             harmony.PatchAll(typeof(TimeOfDayPatch));
             harmony.PatchAll(typeof(DeadBodyInfoPatch));
 
